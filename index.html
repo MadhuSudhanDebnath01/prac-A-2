@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Checkbox, Radio, Dropdown, Tables, Absolute path, Relative path</h1>
+    <p>checkbox : it is used to select more than one option. <br>
+         radio : it is used to select only one option. <br>
+         for text number,email and password value will be same. Id and value will be same in checkbox, Name can be different.</p> 
+
+    <form action="./index1.html">
+        <span>Select your Course :</span>
+        <br>
+        <input type="checkbox" name="course" id="html" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" name="course" id="css" value="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" name="couse" id="JS" value="JS">
+        <label for="js">JAVA SCRIPT</label>
+        <br>
+       <input type="submit" value="submit">
+    </form>
+    <br>
+    <form action="./index1.html">
+        <span>Select your Course duration:</span>
+        <br>
+        <input type="radio" name="duration" id="week" value="week">
+        <label for="6 week">6 weeks</label>
+        <br>
+        <input type="radio" name="duration" id="month" value="month">
+        <label for="month">months</label>
+        <br>
+        <input type="radio" name=duration" id="year" value="year">
+        <label for="1 year">1 year</label>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+
+<p>Absolute path: Which is having full URL and that which is taken from online ex chrome.</p>
+<h1>Absolute image</h1>
+<img height="200px" width="200px" src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/mastehead(web).svg" alt="">
+<h1>Relative image</h1>
+<img height="200px" width="200px" src="./pic-2 (1).png">
+<p></p>
+
+<form action="">
+<label for="cars">Select below the cars : </label>
+<select name="Brands" id="cars">
+   <option value="BMW">BMW</option>
+   <option value="AUDI">AUDI</option>
+   <option value="TESLA">TESLA</option>
+</select>
+<input type="submit" value="submit">
+</form>
+<br>
+<table border="3px" width="600px" height="250px">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>contect</th>  
+        <th>email</th>
+    </tr>
+    <tr>
+        <td rowspan="2">madhu</td>
+        <td>26</td>
+        <td>0983434</td>
+        <td>abc@gmail.com</td>
+    </tr>
+    <tr>
+       
+        <td>27</td>
+        <td>1864434</td>
+        <td>qwbc@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Adi</td>
+        <td>24</td>
+        <td>9076434</td>
+        <td>hjc@gmail.com</td>
+    </tr>
+    <tr>
+        <td colspan="4">puja</td>
+       
+    </tr>
+    
+</table>
+</body>
+</html>
